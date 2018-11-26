@@ -1,0 +1,1010 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.active{
+  background-color: rgb(123, 228, 2);
+}
+
+nav{
+  background-color: rgb(23, 189, 255);
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+nav ul li a{
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: rgb(246, 252, 250);
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
+
+/* Estilo pagina 1*/
+.inicio aside{
+
+  background-color: rgb(245, 202, 13);
+}
+.inicio main{
+  
+  background-color: rgb(84, 241, 36);
+  width: 250px;
+  margin: 20px  0px 20px 130px;
+  display: inline-block;
+}
+.inicio main article {
+  width: 250px;
+  height: 250px; 
+  background-color: rgb(8, 7, 6);
+  border-radius: 50%;
+}
+.inicio div{
+  display: inline-block;
+  background-color: #008CFF;
+  margin: 40px 0px 10px 160px ;
+}
+.inicio div article{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(174, 228, 65);
+  display: inline-block;
+  border-radius: 50%;
+  padding: 40px;
+}
+.inicio footer{
+  display: inline-block;
+  background-color: rgb(0, 255, 34);
+  margin: 40px 0px 10px 80px ;
+  width: 1200px;
+  height: 620px;
+}
+.inicio footer h1 {
+  width: 120px;
+  height: 500px;
+  background-color: rgb(39, 2, 2);
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px 0px 10px 130px ;
+  padding: 40px;
+}
+.inicio aside footer h1 section {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(70, 168, 243);
+  margin: 0px 0px 30px -15px ;
+}
+
+.inicio aside footer h1 aside {
+  width: 150px;
+  height: 500px;
+  background-color: rgb(7, 228, 217);
+  border-radius: 50%;
+  margin: 0px 0px 0px -10px ; 
+}
+.iinicio aside footer h1 main {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(11, 7, 228);
+  border-radius: 50%;
+  margin: 0px 0px 30px -10px ;
+}
+/*Estilo pagina 2 */
+
+.pagina2 aside{
+
+  background-color: rgb(159, 8, 189);
+}
+.pagina2 main{
+  
+  background-color: rgb(184, 233, 51);
+  width: 600px;
+  margin: 20px  10px 10px 50px;
+  display: inline-block;
+}
+.pagina2 main article {
+  width: 250px;
+  height: 250px; 
+  background-color: rgb(0, 146, 156);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 20px  10px 10px 30px;
+}
+
+.pagina2 div{
+  display: inline-block;
+  background-color: #00FFB3;
+  margin: 20px 0px 10px 480px ;
+}
+.pagina2 div article{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(238, 255, 0);
+  display: inline-block;
+  border-radius: 50%;
+  margin: 10px 0px 15px 15px ;
+}
+.pagina2 footer{
+  display: inline-block;
+  background-color: rgb(8, 189, 129);
+  margin: 40px 0px 10px 100px ;
+  width: 1200px;
+  height: 420px;
+}
+.pagina2 footer h1 {
+  width: 120px;
+  height: 250px;
+  background-color: rgba(255, 0, 0, 0.73);
+  display: inline-block;
+  vertical-align: top;
+  margin: 35px 0px 10px 50px;
+  padding: 40px;
+  padding: 40px;
+}
+.pagina2 footer div {
+  width: 250px;
+  height: 250px;
+  background-color: rgb(0, 255, 13);
+  display: inline-block;
+  margin: 36px 30px 10px 50px;
+  padding: 40px;
+}
+.pagina2 aside footer h1 aside {
+  width: 150px;
+  height: 250px;
+  background-color: rgb(7, 221, 228);
+  border-radius: 45%;
+  margin: 0px 0px 0px -10px ; 
+}
+.pagina2 aside footer div main {
+  width: 110px;
+  height: 110px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  margin: 5px 5px 5px 1px ;
+  display: inline-block;
+}
+/*Estilo pagina 3*/
+.pagina3 aside{
+  background-color: rgb(241, 221, 33);
+}
+
+.pagina3 main{
+  background-color: rgb(214, 16, 16);
+  width: 600px;
+  height: 500px;
+  margin: 10px  10px 10px 50px;
+  display: inline-block;
+}
+.pagina3 main h1
+{
+  vertical-align: top;
+  background-color: rgb(7, 250, 250);
+  width: 500px;
+  height: 400px;
+  margin: 45px  10px 10px 45px;
+  display: inline-block;
+}
+.pagina3 main h1 div
+{
+  background-color: rgb(250, 7, 238);
+  width: 400px;
+  height: 300px;
+  margin: 45px  10px 10px 45px;
+  display: inline-block;
+}
+.pagina3 main h1 div footer
+{
+  background-color: rgb(255, 208, 0);
+  width: 90px;
+  height: 90px;
+  margin: 30px  5px 10px 15px;
+  display: inline-block;
+}
+.pagina3 main h1 div article
+{
+  vertical-align: top;
+  background-color: rgb(46, 231, 200);
+  width: 90px;
+  height: 90px;
+  margin: 30px  10px 10px 15px;
+  display: inline-block;
+  border-radius: 50%;
+}
+.pagina3 section
+{
+  background-color: rgb(32, 219, 47);
+  width: 1250px;
+  height:500px;
+  margin: 30px  24px 20px 50px;
+  padding:  10px;
+  
+}
+
+.pagina3 section h1
+{
+  background-color: rgb(0, 165, 241);
+  width: 1170px;
+  height:450px;
+  margin: 30px  0px 0px 30px;
+  display: inline-block;
+}
+.pagina3 section h1 div
+{
+  background-color: rgb(241, 225, 0);
+  width: 420px;
+  height:350px;
+  margin: 60px  10px 0px 30px;
+  display: inline-block;
+  vertical-align: top;
+}
+.pagina3 section h1 footer
+{
+  background-color: rgb(0, 4, 241);
+  width: 350px;
+  height:350px;
+  display: inline-block;
+  margin: 60px  10px 0px 30px;
+}
+.pagina3 section h1 aside
+{
+  background-color: rgb(233, 0, 241);
+  width: 250px;
+  height:350px;
+  display: inline-block;
+  margin: 60px  10px 0px 30px;
+  vertical-align: top;
+}
+.pagina3 section h1 div article
+{
+  background-color: rgb(241, 22, 22);
+  width: 100px;
+  height:200px;
+  display: inline-block;
+  margin: 50px;
+  border-radius: 40%;
+}
+.pagina3 section h1 footer section
+{
+  background-color: rgb(0, 0, 0);
+  width: 200px;
+  height:100px;
+  margin:  30px 50px 50px 60px;
+  border-radius: 40%;
+}
+.pagina3 section h1 aside div
+{
+  background-color: rgb(216, 213, 17);
+  width: 150px;
+  height:150px;
+  margin:  10px 50px 20px 50px;
+  border-radius: 50%;
+}
+.pagina3 footer
+{
+  background-color: rgb(13, 245, 33);
+  width: 1250px;
+  height:500px;
+  margin: 30px  24px 20px 50px;
+  padding:  10px;
+
+}
+.pagina3 footer h1 
+{
+  background-color: rgb(241, 0, 0);
+  width: 1100px;
+  height:400px;
+  margin: 60px  0px 0px 60px;
+  display: inline-block;
+}
+.pagina3 footer h1 aside
+{
+background-color: rgb(228, 213, 213);
+width: 1000px;
+height:300px;
+margin: 50px  0px 0px 50px;
+display: inline-block;
+}
+.pagina3 footer h1 aside div
+{
+background-color: rgb(200, 255, 0);
+width: 900px;
+height:200px;
+margin: 45px  0px 0px 45px;
+
+display: inline-block;
+}
+.pagina3 footer h1 aside div main
+{
+background-color: rgb(0, 0, 0);
+  width: 130px;
+  height:130px;
+  margin:  30px 20px 0px 20px  ;
+  border-radius: 50%;
+}
+
+/*Estilo pagina4*/
+.pagina4 aside
+{
+  background-color: rgb(13, 245, 195);
+}
+.pagina4 aside footer
+{
+  width: 1270px;
+  height:400px;
+  margin: 40px 40px 0px 40px;
+  display: inline-block;
+}
+
+.pagina4 aside footer main
+{
+  background-color: rgb(222, 247, 0);
+  width: 175px;
+  height:400px;
+  margin:  0px 10px 0px 14px;
+  display: inline-block;
+}
+.pagina4 aside footer main h1
+{
+  width: 150px;
+  height: 150px;
+  background-color: rgb(0, 217, 255);
+  border-radius: 50%;
+  margin: 35px 0px 20px 13px;
+}
+.pagina4 aside footer main div
+{
+  width: 150px;
+  height: 300px;
+  background-color: rgb(43, 255, 0);
+  border-radius: 45%;
+  margin: 35px 0px 10px 20px;
+}
+
+.pagina4 aside footer article
+{
+  background-color: rgb(222, 247, 0);
+  width: 400px;
+  height:400px;
+  margin:  0px 10px 0px 10px;
+  display: inline-block;
+}
+.pagina4 aside footer aside
+{
+  background-color: rgb(247, 0, 0);
+  width: 800px;
+  height:400px;
+  margin:  0px 10px 0px 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+.pagina4 aside footer aside h1
+{
+  background-color: rgb(247, 169, 0);
+  width: 700px;
+  height:300px;
+  margin:  50px 0px 0px 50px;
+}
+.pagina4 aside footer aside h1 div
+{
+  background-color: rgb(255, 255, 255);
+  width: 600px;
+  height:200px;
+  margin:  50px 0px 0px 50px;
+  display: inline-block;
+}
+
+.pagina4 aside footer aside h1 div nav
+{
+  background-color: rgb(0, 17, 255);
+  width: 150px;
+  height:150px;
+  margin:  24px 0px 0px 40px;
+  display: inline-block;
+}
+.pagina4 aside footer aside h1 div nav aside
+{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(0, 204, 255);
+  border-radius: 50%;
+  margin: 20px 0px 0px 5px;
+  display: inline-block
+}
+
+.pagina4 aside footer article h1
+{
+  width: 308px;
+  height: 100px;
+  background-color: rgb(255, 0, 0);
+  margin: 40px 0px 0px 40px;
+  display: inline-block;
+}
+
+.pagina4 aside footer article div
+{
+  width: 140px;
+  height: 200px;
+  background-color: rgb(255, 0, 0);
+  margin: 20px -15px 0px 40px;
+  display: inline-block;
+}
+.pagina4 aside article
+{
+  background-color: rgb(222, 247, 0);
+  width: 370px;
+  height:400px;
+  margin:  40px -20px 0px 50px;
+  display: inline-block;
+}
+.pagina4 aside main
+{
+  background-color: rgb(222, 247, 0);
+  width: 450px;
+  height:400px;
+  margin:  40px -10px 0px 50px;
+  display: inline-block;
+}
+.pagina4 aside nav
+{
+  background-color: rgb(222, 247, 0);
+  width: 320px;
+  height:400px;
+  margin:  40px -20px 0px 50px;
+  display: inline-block;
+}
+
+.pagina4 aside article div
+{
+  background-color: rgb(0, 247, 62);
+  width: 300px;
+  height:330px;
+  margin:  30px -20px 0px 34px;
+  padding:  10px 0px 0px 0px;
+}
+.pagina4 aside article div h1
+{
+  background-color: rgb(74, 0, 247);
+  width: 250px;
+  height:125px;
+  margin:  10px -20px 50px 24px;
+  vertical-align: top;
+}
+.pagina4 aside article div aside
+{
+  background-color: rgb(74, 0, 247);
+  width: 250px;
+  height:125px;
+  margin:  10px -20px 0px 24px;
+  vertical-align: top;
+  border-radius: 50%;
+}
+
+.pagina4 aside main div
+{
+  background-color: rgb(0, 247, 62);
+  width: 380px;
+  height:330px;
+  margin:  30px -20px 0px 34px;
+  padding:  10px 0px 0px 0px;
+}
+.pagina4 aside main div h1
+{
+  background-color: rgb(74, 0, 247);
+  width: 320px;
+  height:125px;
+  margin:  10px -20px 35px 24px;
+  vertical-align: top;
+  border-radius: 50%;
+}
+.pagina4 aside main div aside
+{
+  background-color: rgb(74, 0, 247);
+  width: 320px;
+  height:125px;
+  margin:  10px -20px 0px 24px;
+  vertical-align: top;
+  
+}
+/*Estilo pagina5*/
+.page5{
+  background-color: #E64B24;
+  padding: 10px 10px 10px 10px;
+  margin: auto;
+}
+.page5 main{
+  background-color: #17A6D6;
+  width: 400px;
+  margin: 10px 5px 10px 10px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+.page5 main li{
+  background-color: #E6B224;
+  width: 150px;
+  height: 240px;
+  margin: 10px 10px 10px 10px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+.page5 main li div{
+  width: 100px;
+  height: 100px;
+  background-color: #FFFFFF;
+  display: inline-block;
+  margin: 8px 10px 10px 30px;
+  border-radius: 50%;
+}
+.page5 main nav{
+  background-color: rgb(103, 20, 211);
+  width: 350px;
+  height: 200px;
+  margin: 10px 10px 10px 10px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+.page5 main nav li{
+  width: 100px;
+  height: 100px;
+  background-color: #106F80;
+  display: inline-block;
+  margin: 30px 10px 10px 5px;
+  border-radius: 50%;
+}
+.page5 main section{
+  background-color: rgb(230, 145, 36);
+  width: 350px;
+  height: 300px;
+  margin: 10px 10px 10px 10px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+.page5 main section div{
+  width: 100px;
+  height: 100px;
+  background-color: #0B912C;
+  display: inline-block;
+  margin: 0px 40px 1px 30px;
+  border-radius: 50%;
+}
+.page5 main section a{
+  background-color: #545ECC;
+  width: 110px;
+  height: 50px;
+  margin: 0px 10px 10px 100px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+.page5 main section nav{
+  background-color: #810B71;
+  width: 300px;
+  height: 30px;
+  margin: 0px 10px 10px 10px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+.page5 main h3{
+  background-color: rgb(3, 214, 56);
+  width: 150px;
+  height: 250px;
+  margin: 0px 10px 10px 10px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+.page5 main h3 li{
+  width: 100px;
+  height: 100px;
+  background-color: #15A2AC;
+  display: inline-block;
+  margin: 0px 10px 10px 5px;
+  border-radius: 50%;
+}
+
+.page5 main a{
+  background-color: #D3C71A;
+  width: 150px;
+  height: 240px;
+  margin: 10px 10px 10px 10px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+  
+}
+.page5 main a ol{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+  display: inline-block;
+  margin: 0px 10px 10px 5px;
+  border-radius: 50%;
+  
+}
+.page5 main a div{
+  width: 100px;
+  height: 230px;
+  background-color: #0E8A6B;
+  display: inline-block;
+  margin: 5px 5px 10px 25px;
+  border-radius: 50%; 
+}
+
+.page5 footer{
+  background-color: rgb(218, 15, 120);
+  width: 1290px;
+  height: 250px;
+  margin: 10px 10px 10px 10px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+.page5 footer article{
+  background-color: rgb(206, 18, 18);
+  width: 200px;
+  height: 200px;
+  margin: 10px 10px 10px 10px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+.page5 footer article li{
+  width: 50px;
+  height: 50px;
+  background-color: #FFFB00;
+  display: inline-block;
+  margin: 30px 5px 10px 30px;
+  border-radius: 50%
+  
+}
+.page5 footer article a{
+  width: 110px;
+  height: 50px;
+  background-color: rgb(73, 209, 202);
+  display: inline-block;
+  margin: 0px 10px 0px 40px;
+  border-radius: 50%;
+}
+.page5 footer section{
+  background-color: #57CE12;
+  width: 700px;
+  height: 200px;
+  margin: 10px 10px 10px 10px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+.page5 footer section li{
+  background-color: #14CABB;
+  width: 650px;
+  height: 150px;
+  margin: 10px 10px 10px 10px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+.page5 footer section li a{
+  width: 100px;
+  height: 100px;
+  background-color: #2B0725;
+  display: inline-block;
+  margin: 15px 5px 10px 85px;
+  border-radius: 50%
+}
+.page5 main h3 ol{
+  width: 100px;
+  height: 200px;
+  background-color: rgb(98, 15, 180);
+  display: inline-block;
+  margin: 5px 5px 10px 15px;
+  border-radius: 50%
+}
+.page5 main h4{
+  background-color: #DF5312;
+  width: 200px;
+  height: 200px;
+  margin: 10px 10px 10px 10px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+.page5 main h4 div{
+  width: 100px;
+  height: 100px;
+  background-color: #F3F1F5;
+  display: inline-block;
+  margin: 50px 0px 10px 50px;
+  border-radius: 50%
+}
+.page5 main article{
+  background-color: #CA1423;
+  width: 100px;
+  height: 200px;
+  margin: 10px 10px 10px 10px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+.page5 main article div{
+  width: 100px;
+  height: 160px;
+  background-color: rgb(75, 6, 143);
+  display: inline-block;
+  margin: 5px 10px 10px 0px;
+  border-radius: 50%
+}
+.page5 main nav ol{
+  width: 100px;
+  height: 100px;
+  background-color: #5F2905;
+  display: inline-block;
+  margin: 0px 10px 5px 15px;
+  border-radius: 50%
+}
+.page5 main h5{
+  background-color: rgb(18, 206, 43);
+  width: 350px;
+  height: 300px;
+  margin: 10px 10px 10px 10px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+.page5 main h5 li{
+  background-color: #4A12CE;
+  width: 300px;
+  height: 100px;
+  margin: 10px 10px 10px 20px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+.page5 main h5 li a{
+  width: 250px;
+  height: 80px;
+  background-color: rgb(235, 0, 98);
+  display: inline-block;
+  margin: 0px 10px 5px 10px;
+  border-radius: 50%
+}
+.page5 main h5 a{
+  width: 60px;
+  height: 60px;
+  background-color: #3D1B09;
+  display: inline-block;
+  margin: 30px 10px 20px 130px;
+  border-radius: 50%
+}
+.page5 main h6{
+  background-color: #CE8312;
+  width: 100px;
+  height: 280px;
+  margin: 10px 100px 10px 10px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+.page5 main h6 a{
+  width: 50px;
+  height: 50px;
+  background-color: #5F2905;
+  display: inline-block;
+  margin: 0px 10px 5px 10px;
+  border-radius: 50%
+}
+.page5 main h2{
+  background-color: #CE123B;
+  width: 100px;
+  height: 280px;
+  margin: 10px 10px 10px 10px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+/*Estilo pagina6*/
+.page6{
+  background-color: rgb(255, 251, 0);
+  padding: 10px 10px 10px 10px;
+  margin: auto;
+}
+.page6 section{
+  background-color: rgb(0, 255, 0);
+  width: 250px;
+  height: 250px;
+  margin: 10px 10px 10px 30px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+.page6 section li{
+  width: 60px;
+  height: 60px;
+  background-color: #0DA5B9;
+  display: inline-block;
+  margin: 55px 8px 32px 40px;
+  border-radius: 50%;
+}
+.page6 section a{
+  background-color: rgb(175, 37, 3);
+  width: 25px;
+  height: 40px;
+  margin: auto -1px;
+  display: inline-block;
+  padding: 11px 16px 12px 41px;
+  vertical-align: top;
+}
+.page6 h2{
+  background-color: rgb(0, 202, 253);
+  width: 600px;
+  height: 250px;
+  margin: 10px 10px 10px 40px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+.page6 h2 div{
+  background-color: #BE0D98;
+  width: 120px;
+  height: 120px;
+  margin: 50px 10px 10px 35px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+.page6 h2 div li{
+  width: 100px;
+  height: 100px;
+  background-color: #E5F0F3;
+  display: inline-block;
+  margin: 0px 10px 10px 8px;
+  padding: 0px 0px 20px 0px;
+  border-radius: 50%
+}
+.page6 h3{
+  background-color: #E2BE1B;
+  width: 300px;
+  height: 400px;
+  margin: 10px 10px 10px 10px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+.page6 h3 ol{
+  width: 120px;
+  height: 120px;
+  background-color: #A5CF0C;
+  display: inline-block;
+  margin: 5px 10px 0px 90px;
+  border-radius: 50%;
+}
+.page6 h3 section{
+  width: 131px;
+  height: 50px;
+  background-color: #A013D3;
+  display: inline-block;
+  margin: 5px 10px 10px 78px;
+  border-radius: 50%;
+}
+.page6 h3 article{
+  background-color: rgb(21, 189, 29);
+  width: 250px;
+  height: 350px;
+  margin: 10px 10px 10px 10px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+.page6 h3 article li{
+  width: 140px;
+  height: 140px;
+  background-color: rgb(18, 22, 252);
+  display: inline-block;
+  margin: 5px 10px 10px 50px;
+  padding: 0px 0px 20px 0px;
+  border-radius: 50%
+}
+.page6 h3 div{
+  background-color: #09E0E7;
+  width: 200px;
+  height: 120px;
+  margin: 10px 10px 10px 40px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+.page6 h3 div li{
+  width: 100px;
+  height: 100px;
+  background-color: #11F368;
+  display: inline-block;
+  margin: 10px 10px 10px 56px;
+  border-radius: 50%;
+}
+
+.page6 h3 nav{
+  background-color: #279B78;
+  width: 200px;
+  height: 200px;
+  margin: 10px 10px 10px 40px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  vertical-align: top;
+}
+.page6 h3 nav a{
+  width: 70px;
+  height: 70px;
+  background-color: #19E6DC;
+  display: inline-block;
+  margin: 15px 10px 10px 38px;
+  border-radius: 50%;
+  
+}
+.page6 h4{
+  background-color: #D6C41E;
+  width: 250px;
+  height: 415px;
+  margin: 10px 10px 10px 10px;
+  display: inline-block;
+ 
+  vertical-align: top;
+}
+.page6 h4 div{
+  width: 200px;
+  height: 200px;
+  background-color: #389AC7;
+  display: inline-block;
+  margin: 80px 10px 10px 30px;
+  padding: 0px 0px 20px 0px;
+  border-radius: 50%
+}
+.page6 main{
+  background-color: #1CE051;
+  width: 1280px;
+  height: 620px;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  display: inline-block;
+
+}
+.page6 main section nav{
+  width: 50px;
+  height: 50px;
+  background-color: #FBFDFD;
+  display: inline-block;
+  margin: 50px 40px 10px 80px;
+  padding: 0px 50px 20px 0px;
+  border-radius: 50%;
+}
+.page6 main h4{
+  background-color: #EB2214;
+  width: 590px;
+  height: 250px;
+
+  margin: 10px 10px 10px 30px;
+  display: inline-block;
+}
+.page6 main h4 li{
+  background-color: #201716;
+  width: 500px;
+  height: 180px;
+ 
+  margin: 30px 10px 10px 30px;
+  display: inline-block;
+}
+.page6 main h4 li a{
+  width: 90px;
+  height: 90px;
+  background-color: #E418DA;
+  display: inline-block;
+  margin: 50px 5px 10px 54px;
+  border-radius: 50%;
+}
